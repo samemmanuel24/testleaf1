@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="52022" started-at="2019-12-30T01:12:51 IST" finished-at="2019-12-30T01:13:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="52022" started-at="2019-12-30T01:12:51 IST" finished-at="2019-12-30T01:13:43 IST">
+      <class name="testcases.TC005_MergeLead">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC005_MergeLead@aa12dd]" name="setData" is-config="true" duration-ms="63" started-at="2019-12-30T01:12:51 IST" finished-at="2019-12-30T01:12:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcases.TC005_MergeLead@aa12dd]" name="login" is-config="true" duration-ms="8519" started-at="2019-12-30T01:12:53 IST" finished-at="2019-12-30T01:13:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tC005_MergeLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC005_MergeLead@aa12dd]" name="tC005_MergeLead" duration-ms="38673" started-at="2019-12-30T01:13:01 IST" data-provider="getData" finished-at="2019-12-30T01:13:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10018]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10022]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC005_MergeLead -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testcases.TC005_MergeLead@aa12dd]" name="logout" is-config="true" duration-ms="2469" started-at="2019-12-30T01:13:40 IST" finished-at="2019-12-30T01:13:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testcases.TC005_MergeLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
